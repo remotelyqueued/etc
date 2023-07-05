@@ -93,6 +93,12 @@ security/*
 etckeeper/*
 !etckeeper/etckeeper.conf
 
+!systemd/
+systemd/*
+!systemd/journald.conf.d/
+systemd/journald.conf.d/*
+!systemd/journald.conf.d/10-volatile.conf
+
 !dhcpcd.conf
 !dnsmasq.conf
 !fstab
